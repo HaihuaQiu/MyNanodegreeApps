@@ -9,9 +9,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#E0E0E0"
+    android:background="@android:color/white"
     tools:context="com.example.android.mynanodegreeapps.MainActivity">
-
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -23,73 +22,54 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:padding="16dp"
-            android:text="My Nanodegree Apps!"
+            android:text="@string/textInItemOne"
+            android:textColor="@android:color/black" />
+        <Button
+            style="@style/CustomStyle"
+            android:id="@+id/button_Streanmer"
+            android:onClick="btnClick"
+            android:background="#FF9800"
+            android:text="@string/textInItemTwo"
             android:textColor="@android:color/black" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:background="@android:color/black"
-            android:text="Popular movies"
-            android:onClick="popularMovies"
-            android:textColor="@android:color/white"
-            android:textSize="12sp" />
+            style="@style/CustomStyle"
+            android:background="#FF9800"
+            android:textColor="@android:color/black"
+            android:text="@string/textInItemThree"
+            android:id="@+id/button_Scores"
+            android:onClick="btnClick" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:background="@android:color/black"
-            android:text="Stock Hawk"
-            android:onClick="stockHawk"
-            android:textColor="@android:color/white"
-            android:textSize="12sp" />
+            style="@style/CustomStyle"
+            android:background="#FF9800"
+            android:textColor="@android:color/black"
+            android:text="@string/textInItemFour"
+            android:id="@+id/button_Library"
+            android:onClick="btnClick" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:background="@android:color/black"
-            android:text="Build it bigger"
-            android:onClick="buildItBigger"
-            android:textColor="@android:color/white"
-            android:textSize="12sp" />
+            style="@style/CustomStyle"
+            android:background="#FF9800"
+            android:textColor="@android:color/black"
+            android:text="@string/textInItemFive"
+            android:id="@+id/button_bigger"
+            android:onClick="btnClick" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:background="@android:color/black"
-            android:text="Make your app material"
-            android:onClick="makeYouAppMaterial"
-            android:textColor="@android:color/white"
-            android:textSize="12sp" />
+            style="@style/CustomStyle"
+            android:id="@+id/button_reader"
+            android:onClick="btnClick"
+            android:background="#FF9800"
+            android:textColor="@android:color/black"
+            android:text="@string/textInItemSix" />
 
         <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:background="@android:color/black"
-            android:text="Go ubiquitous"
-            android:onClick="goUbiquitous"
+            style="@style/CustomStyle"
             android:textColor="@android:color/white"
-            android:textSize="12sp" />
-
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginBottom="8dp"
-            android:background="@android:color/black"
-            android:text="Capstone"
-            android:onClick="capstone"
-            android:textColor="@android:color/white"
-            android:textSize="12sp" />
+            android:background="#F44336"
+            android:text="@string/textInItemSeven"
+            android:id="@+id/button_capstone"
+            android:onClick="btnClick" />
     </LinearLayout>
 </LinearLayout>

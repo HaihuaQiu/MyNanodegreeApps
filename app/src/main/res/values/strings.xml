@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">My Apps Portfolio</string>
+    <string name="textInItemOne">My Nanodegree Apps!</string>
+    <string name="textInItemTwo">Spotify Streanmer</string>
+    <string name="textInItemThree">Scores App</string>
+    <string name="textInItemFour">Library App</string>
+    <string name="textInItemFive">Build it bigger</string>
+    <string name="textInItemSix">XYZ reader</string>
+    <string name="textInItemSeven">Capstone:my own app</string>
+    <string name="msg1">This button will launch my Spotify Streanmer app</string>
+    <string name="msg2">This button will launch my Scores App app</string>
+    <string name="msg3">This button will launch my Library app</string>
+    <string name="msg4">This button will launch my Build it bigge app</string>
+    <string name="msg5">This button will launch my XYZ reader app</string>
+    <string name="msg6">This button will launch my capstone app</string>
 </resources>
